@@ -1,0 +1,356 @@
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1686630595570784, "dur":13485, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1686630595584274, "dur":543, "ph":"X", "name": "RemoveStaleOutputs",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1686630595584843, "dur":314, "ph":"X", "name": "BuildQueueInit",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1686630595585176, "dur":2385, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1686630595587562, "dur":160641, "ph":"X", "name": "WaitForBuildFinished", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1686630595748206, "dur":356, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1686630595748678, "dur":1055, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1686630595585305, "dur":2262, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1686630595587569, "dur":3523, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1686630595591863, "dur":433, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/csharpactions/boot.config_tyr4.info" }}
+,{ "pid":12345, "tid":1, "ts":1686630595592300, "dur":70, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\PlayerDataCache\\Win64\\Data\\boot.config" }}
+,{ "pid":12345, "tid":1, "ts":1686630595592377, "dur":516, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\PlayerDataCache\\Win64\\Data\\RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":1, "ts":1686630595592894, "dur":62, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\PlayerDataCache\\Win64\\Data\\ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":1, "ts":1686630595593149, "dur":63, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\Trindade\\Desktop\\TECMUL\\Unity_3D\\RunGame\\Library\\Bee\\PlayerScriptAssemblies\\Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686630595593213, "dur":117, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\Trindade\\Desktop\\TECMUL\\Unity_3D\\RunGame\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686630595593331, "dur":176, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\Trindade\\Desktop\\TECMUL\\Unity_3D\\RunGame\\Library\\Bee\\PlayerScriptAssemblies\\UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686630595593508, "dur":254, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\Trindade\\Desktop\\TECMUL\\Unity_3D\\RunGame\\Library\\Bee\\PlayerScriptAssemblies\\Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686630595593764, "dur":534, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\Trindade\\Desktop\\TECMUL\\Unity_3D\\RunGame\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686630595594300, "dur":126, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\Trindade\\Desktop\\TECMUL\\Unity_3D\\RunGame\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686630595594428, "dur":321, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\Trindade\\Desktop\\TECMUL\\Unity_3D\\RunGame\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686630595595002, "dur":52, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.1f1\\Editor\\Data\\Tools\\BuildPipeline\\Bee.TundraBackend.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686630595592298, "dur":2805, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"AddBootConfigGUID Library/Bee/artifacts/WinPlayerBuildProgram/boot.config" }}
+,{ "pid":12345, "tid":1, "ts":1686630595595669, "dur":104, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1686630595596509, "dur":146807, "ph":"X", "name": "AddBootConfigGUID",  "args": { "detail":"Library/Bee/artifacts/WinPlayerBuildProgram/boot.config" }}
+,{ "pid":12345, "tid":1, "ts":1686630595746882, "dur":169, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\boot.config" }}
+,{ "pid":12345, "tid":1, "ts":1686630595746881, "dur":175, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Trindade/Desktop/TECMUL/Unity_3D/RunGame_Data/boot.config" }}
+,{ "pid":12345, "tid":1, "ts":1686630595747120, "dur":1032, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Trindade/Desktop/TECMUL/Unity_3D/RunGame_Data/boot.config" }}
+,{ "pid":12345, "tid":2, "ts":1686630595585373, "dur":2213, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1686630595587588, "dur":614, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1686630595588202, "dur":2898, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1686630595591149, "dur":520, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.1f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\mconfig\\config.xml" }}
+,{ "pid":12345, "tid":2, "ts":1686630595591103, "dur":567, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Trindade/Desktop/TECMUL/Unity_3D/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":2, "ts":1686630595591671, "dur":150, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1686630595593156, "dur":2117, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Trindade/Desktop/TECMUL/Unity_3D/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":2, "ts":1686630595595727, "dur":7346, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Trindade/Desktop/TECMUL/Unity_3D/RunGame_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":2, "ts":1686630595603174, "dur":3742, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Trindade/Desktop/TECMUL/Unity_3D/RunGame_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":2, "ts":1686630595606980, "dur":116, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1686630595607110, "dur":3482, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Trindade/Desktop/TECMUL/Unity_3D/RunGame_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":2, "ts":1686630595610632, "dur":75, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1686630595617241, "dur":831, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1686630595610761, "dur":7322, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Trindade/Desktop/TECMUL/Unity_3D/RunGame_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1686630595618142, "dur":228, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1686630595618411, "dur":4176, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Trindade/Desktop/TECMUL/Unity_3D/RunGame_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1686630595622631, "dur":122, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1686630595622785, "dur":6377, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Trindade/Desktop/TECMUL/Unity_3D/RunGame_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1686630595629224, "dur":114, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1686630595629351, "dur":10213, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Trindade/Desktop/TECMUL/Unity_3D/RunGame_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1686630595639633, "dur":2265, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Trindade/Desktop/TECMUL/Unity_3D/RunGame_Data/level1" }}
+,{ "pid":12345, "tid":2, "ts":1686630595641929, "dur":106280, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686630595585363, "dur":2219, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686630595587584, "dur":660, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686630595588244, "dur":2863, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686630595591109, "dur":520, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Trindade/Desktop/TECMUL/Unity_3D/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":3, "ts":1686630595591630, "dur":139, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686630595592910, "dur":2186, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Trindade/Desktop/TECMUL/Unity_3D/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":3, "ts":1686630595595293, "dur":150, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Trindade/Desktop/TECMUL/Unity_3D/RunGame_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":3, "ts":1686630595595444, "dur":153, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686630595595872, "dur":6305, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Trindade/Desktop/TECMUL/Unity_3D/RunGame_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":3, "ts":1686630595602262, "dur":160, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686630595602429, "dur":82, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686630595602516, "dur":5452, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Trindade/Desktop/TECMUL/Unity_3D/RunGame_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686630595608817, "dur":117, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686630595609039, "dur":10178, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Trindade/Desktop/TECMUL/Unity_3D/RunGame_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686630595619287, "dur":159, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686630595619478, "dur":4343, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Trindade/Desktop/TECMUL/Unity_3D/RunGame_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686630595631807, "dur":90, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686630595623910, "dur":8036, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Trindade/Desktop/TECMUL/Unity_3D/RunGame_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686630595632019, "dur":133, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686630595632175, "dur":9267, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Trindade/Desktop/TECMUL/Unity_3D/RunGame_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686630595641485, "dur":106714, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1686630595585324, "dur":2247, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1686630595587575, "dur":701, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1686630595588277, "dur":2835, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1686630595591113, "dur":552, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Trindade/Desktop/TECMUL/Unity_3D/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":4, "ts":1686630595591665, "dur":91, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1686630595592849, "dur":2288, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Trindade/Desktop/TECMUL/Unity_3D/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":4, "ts":1686630595595178, "dur":99, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.1f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\EmbedRuntime\\mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686630595595176, "dur":102, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Trindade/Desktop/TECMUL/Unity_3D/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686630595595731, "dur":14350, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Trindade/Desktop/TECMUL/Unity_3D/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686630595610150, "dur":62, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1686630595610277, "dur":2321, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Trindade/Desktop/TECMUL/Unity_3D/RunGame_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686630595612640, "dur":236, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1686630595612918, "dur":6603, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Trindade/Desktop/TECMUL/Unity_3D/RunGame_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686630595619563, "dur":53, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1686630595619630, "dur":4231, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Trindade/Desktop/TECMUL/Unity_3D/RunGame_Data/Managed/UnityEngine.PropertiesModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686630595623913, "dur":408, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1686630595624337, "dur":9494, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Trindade/Desktop/TECMUL/Unity_3D/RunGame_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686630595633894, "dur":6104, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Trindade/Desktop/TECMUL/Unity_3D/RunGame_Data/sharedassets1.resource" }}
+,{ "pid":12345, "tid":4, "ts":1686630595640059, "dur":1509, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Trindade/Desktop/TECMUL/Unity_3D/RunGame_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":4, "ts":1686630595641594, "dur":106617, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1686630595585343, "dur":2235, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1686630595587580, "dur":612, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1686630595588193, "dur":2923, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1686630595591119, "dur":167, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Trindade/Desktop/TECMUL/Unity_3D/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":5, "ts":1686630595591286, "dur":50, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1686630595605408, "dur":2573, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Trindade/Desktop/TECMUL/Unity_3D/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":5, "ts":1686630595608028, "dur":162, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1686630595608207, "dur":2761, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Trindade/Desktop/TECMUL/Unity_3D/RunGame_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1686630595611059, "dur":7418, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Trindade/Desktop/TECMUL/Unity_3D/RunGame_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1686630595618519, "dur":57, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1686630595618589, "dur":3256, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Trindade/Desktop/TECMUL/Unity_3D/RunGame_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1686630595621917, "dur":121, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1686630595622053, "dur":6798, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Trindade/Desktop/TECMUL/Unity_3D/RunGame_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1686630595628921, "dur":61, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1686630595637113, "dur":145, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1686630595629041, "dur":8230, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Trindade/Desktop/TECMUL/Unity_3D/RunGame_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1686630595637755, "dur":8031, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Trindade/Desktop/TECMUL/Unity_3D/RunGame_Data/level1.resS" }}
+,{ "pid":12345, "tid":5, "ts":1686630595645840, "dur":102378, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1686630595585374, "dur":2217, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1686630595587593, "dur":604, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1686630595588198, "dur":2925, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1686630595591126, "dur":543, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Trindade/Desktop/TECMUL/Unity_3D/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":6, "ts":1686630595591669, "dur":128, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1686630595593110, "dur":1907, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Trindade/Desktop/TECMUL/Unity_3D/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":6, "ts":1686630595595055, "dur":319, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Trindade/Desktop/TECMUL/Unity_3D/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":6, "ts":1686630595595375, "dur":136, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1686630595595741, "dur":4218, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Trindade/Desktop/TECMUL/Unity_3D/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":6, "ts":1686630595600097, "dur":1989, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Trindade/Desktop/TECMUL/Unity_3D/RunGame_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":6, "ts":1686630595602200, "dur":1078, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Trindade/Desktop/TECMUL/Unity_3D/RunGame_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":6, "ts":1686630595603319, "dur":53, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1686630595603407, "dur":3143, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Trindade/Desktop/TECMUL/Unity_3D/RunGame_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":6, "ts":1686630595606601, "dur":82, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1686630595606701, "dur":2334, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Trindade/Desktop/TECMUL/Unity_3D/RunGame_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":6, "ts":1686630595609066, "dur":182, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1686630595609266, "dur":2016, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Trindade/Desktop/TECMUL/Unity_3D/RunGame_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1686630595611324, "dur":116, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1686630595611458, "dur":7221, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Trindade/Desktop/TECMUL/Unity_3D/RunGame_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1686630595618727, "dur":50, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1686630595618791, "dur":7692, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Trindade/Desktop/TECMUL/Unity_3D/RunGame_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1686630595626527, "dur":453, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1686630595626995, "dur":6387, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Trindade/Desktop/TECMUL/Unity_3D/RunGame_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1686630595633413, "dur":81, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.1f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\UnityPlayer.dll" }}
+,{ "pid":12345, "tid":6, "ts":1686630595633411, "dur":84, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Trindade/Desktop/TECMUL/Unity_3D/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":6, "ts":1686630595633533, "dur":33628, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Trindade/Desktop/TECMUL/Unity_3D/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":6, "ts":1686630595667192, "dur":81013, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1686630595585399, "dur":2196, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1686630595587598, "dur":617, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1686630595588216, "dur":2879, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1686630595591121, "dur":172, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.1f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":7, "ts":1686630595591098, "dur":196, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Trindade/Desktop/TECMUL/Unity_3D/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":7, "ts":1686630595592423, "dur":2941, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Trindade/Desktop/TECMUL/Unity_3D/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":7, "ts":1686630595595737, "dur":6462, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Trindade/Desktop/TECMUL/Unity_3D/RunGame_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":7, "ts":1686630595602257, "dur":67, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Trindade/Desktop/TECMUL/Unity_3D/RunGame_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":7, "ts":1686630595602326, "dur":103, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1686630595602463, "dur":55, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1686630595602521, "dur":2449, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Trindade/Desktop/TECMUL/Unity_3D/RunGame_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":7, "ts":1686630595605137, "dur":3409, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Trindade/Desktop/TECMUL/Unity_3D/RunGame_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":7, "ts":1686630595608588, "dur":52, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1686630595608671, "dur":4173, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Trindade/Desktop/TECMUL/Unity_3D/RunGame_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1686630595612893, "dur":125, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1686630595613033, "dur":6929, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Trindade/Desktop/TECMUL/Unity_3D/RunGame_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1686630595620002, "dur":134, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1686630595620149, "dur":3690, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Trindade/Desktop/TECMUL/Unity_3D/RunGame_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1686630595623922, "dur":6010, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Trindade/Desktop/TECMUL/Unity_3D/RunGame_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1686630595630039, "dur":6085, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Trindade/Desktop/TECMUL/Unity_3D/RunGame_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1686630595636187, "dur":191, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1686630595636384, "dur":3520, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Trindade/Desktop/TECMUL/Unity_3D/RunGame_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":7, "ts":1686630595639978, "dur":3743, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Trindade/Desktop/TECMUL/Unity_3D/RunGame_Data/globalgamemanagers.assets.resS" }}
+,{ "pid":12345, "tid":7, "ts":1686630595643765, "dur":104463, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1686630595585422, "dur":2178, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1686630595587602, "dur":709, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1686630595588312, "dur":2797, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1686630595591120, "dur":176, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.1f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\4.5\\web.config" }}
+,{ "pid":12345, "tid":8, "ts":1686630595591110, "dur":187, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Trindade/Desktop/TECMUL/Unity_3D/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":8, "ts":1686630595591297, "dur":66, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1686630595604903, "dur":2585, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Trindade/Desktop/TECMUL/Unity_3D/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":8, "ts":1686630595607541, "dur":65, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1686630595607621, "dur":2681, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Trindade/Desktop/TECMUL/Unity_3D/RunGame_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1686630595610338, "dur":51, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1686630595610404, "dur":4082, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Trindade/Desktop/TECMUL/Unity_3D/RunGame_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1686630595614553, "dur":519, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1686630595615153, "dur":5305, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Trindade/Desktop/TECMUL/Unity_3D/RunGame_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1686630595620497, "dur":138, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1686630595620665, "dur":5916, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Trindade/Desktop/TECMUL/Unity_3D/RunGame_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1686630595626620, "dur":369, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1686630595627006, "dur":5847, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Trindade/Desktop/TECMUL/Unity_3D/RunGame_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1686630595632914, "dur":132, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1686630595633080, "dur":9953, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Trindade/Desktop/TECMUL/Unity_3D/RunGame_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1686630595643075, "dur":105158, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1686630595585438, "dur":2167, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1686630595587607, "dur":310, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1686630595587917, "dur":3176, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1686630595591799, "dur":1716, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Trindade/Desktop/TECMUL/Unity_3D/RunGame_Data/app.info" }}
+,{ "pid":12345, "tid":9, "ts":1686630595593520, "dur":304, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.1f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\2.0\\web.config" }}
+,{ "pid":12345, "tid":9, "ts":1686630595593518, "dur":310, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Trindade/Desktop/TECMUL/Unity_3D/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":9, "ts":1686630595594094, "dur":1304, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Trindade/Desktop/TECMUL/Unity_3D/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":9, "ts":1686630595595745, "dur":6111, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Trindade/Desktop/TECMUL/Unity_3D/RunGame_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":9, "ts":1686630595601979, "dur":1157, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Trindade/Desktop/TECMUL/Unity_3D/RunGame_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":9, "ts":1686630595603231, "dur":3961, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Trindade/Desktop/TECMUL/Unity_3D/RunGame_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":9, "ts":1686630595607241, "dur":235, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1686630595607494, "dur":3388, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Trindade/Desktop/TECMUL/Unity_3D/RunGame_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1686630595610982, "dur":7285, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Trindade/Desktop/TECMUL/Unity_3D/RunGame_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1686630595618309, "dur":57, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1686630595618409, "dur":3948, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Trindade/Desktop/TECMUL/Unity_3D/RunGame_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1686630595622406, "dur":59, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1686630595622480, "dur":5511, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Trindade/Desktop/TECMUL/Unity_3D/RunGame_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1686630595628040, "dur":59, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1686630595628112, "dur":6563, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Trindade/Desktop/TECMUL/Unity_3D/RunGame_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1686630595634721, "dur":2948, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Trindade/Desktop/TECMUL/Unity_3D/RunGame_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":9, "ts":1686630595637707, "dur":83, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1686630595637802, "dur":5153, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Trindade/Desktop/TECMUL/Unity_3D/RunGame_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":9, "ts":1686630595642998, "dur":105232, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1686630595585464, "dur":2145, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1686630595587609, "dur":3495, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1686630595591106, "dur":583, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Trindade/Desktop/TECMUL/Unity_3D/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":10, "ts":1686630595591690, "dur":51, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1686630595592892, "dur":1535, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Trindade/Desktop/TECMUL/Unity_3D/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":10, "ts":1686630595594472, "dur":365, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.1f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\2.0\\machine.config" }}
+,{ "pid":12345, "tid":10, "ts":1686630595594470, "dur":368, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Trindade/Desktop/TECMUL/Unity_3D/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":10, "ts":1686630595594839, "dur":362, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1686630595595218, "dur":1532, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Trindade/Desktop/TECMUL/Unity_3D/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":10, "ts":1686630595596862, "dur":4797, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Trindade/Desktop/TECMUL/Unity_3D/RunGame_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":10, "ts":1686630595602166, "dur":53, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1686630595602239, "dur":2550, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Trindade/Desktop/TECMUL/Unity_3D/RunGame_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":10, "ts":1686630595604880, "dur":117, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1686630595605015, "dur":3300, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Trindade/Desktop/TECMUL/Unity_3D/RunGame_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":10, "ts":1686630595608418, "dur":3274, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Trindade/Desktop/TECMUL/Unity_3D/RunGame_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1686630595611735, "dur":279, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1686630595612809, "dur":7240, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Trindade/Desktop/TECMUL/Unity_3D/RunGame_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1686630595620147, "dur":4863, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Trindade/Desktop/TECMUL/Unity_3D/RunGame_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1686630595625126, "dur":119, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1686630595625278, "dur":8000, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Trindade/Desktop/TECMUL/Unity_3D/RunGame_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1686630595633313, "dur":318, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1686630595633729, "dur":7549, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Trindade/Desktop/TECMUL/Unity_3D/RunGame_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1686630595641328, "dur":106868, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1686630595585488, "dur":2126, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1686630595587614, "dur":3496, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1686630595591111, "dur":567, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Trindade/Desktop/TECMUL/Unity_3D/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":11, "ts":1686630595591679, "dur":100, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1686630595592937, "dur":2162, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Trindade/Desktop/TECMUL/Unity_3D/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":11, "ts":1686630595595139, "dur":78, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.1f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\EmbedRuntime\\MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":11, "ts":1686630595595137, "dur":81, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Trindade/Desktop/TECMUL/Unity_3D/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":11, "ts":1686630595595219, "dur":55, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1686630595595666, "dur":3808, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Trindade/Desktop/TECMUL/Unity_3D/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":11, "ts":1686630595599586, "dur":500, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1686630595600110, "dur":2954, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Trindade/Desktop/TECMUL/Unity_3D/RunGame_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":11, "ts":1686630595603165, "dur":3398, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Trindade/Desktop/TECMUL/Unity_3D/RunGame_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":11, "ts":1686630595606609, "dur":73, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1686630595606701, "dur":3263, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Trindade/Desktop/TECMUL/Unity_3D/RunGame_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":11, "ts":1686630595610008, "dur":60, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1686630595610090, "dur":6617, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Trindade/Desktop/TECMUL/Unity_3D/RunGame_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1686630595616769, "dur":995, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1686630595617776, "dur":383, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1686630595618164, "dur":5527, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Trindade/Desktop/TECMUL/Unity_3D/RunGame_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1686630595623755, "dur":123, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1686630595623906, "dur":9357, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Trindade/Desktop/TECMUL/Unity_3D/RunGame_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1686630595633304, "dur":276, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1686630595633594, "dur":13141, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Trindade/Desktop/TECMUL/Unity_3D/RunGame_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1686630595646800, "dur":101424, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1686630595585511, "dur":2107, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1686630595587619, "dur":3494, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1686630595591113, "dur":173, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Trindade/Desktop/TECMUL/Unity_3D/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":12, "ts":1686630595593117, "dur":1161, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Trindade/Desktop/TECMUL/Unity_3D/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":12, "ts":1686630595594327, "dur":229, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Trindade/Desktop/TECMUL/Unity_3D/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":12, "ts":1686630595594630, "dur":1537, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Trindade/Desktop/TECMUL/Unity_3D/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":12, "ts":1686630595596203, "dur":166, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1686630595596883, "dur":4605, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Trindade/Desktop/TECMUL/Unity_3D/RunGame_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":12, "ts":1686630595604015, "dur":2269, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1686630595606428, "dur":3425, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Trindade/Desktop/TECMUL/Unity_3D/RunGame_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":12, "ts":1686630595609894, "dur":416, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1686630595610653, "dur":10355, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Trindade/Desktop/TECMUL/Unity_3D/RunGame_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1686630595621070, "dur":159, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1686630595621260, "dur":5839, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Trindade/Desktop/TECMUL/Unity_3D/RunGame_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1686630595627137, "dur":167, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1686630595627316, "dur":5906, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Trindade/Desktop/TECMUL/Unity_3D/RunGame_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1686630595633296, "dur":175, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1686630595633485, "dur":14384, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Trindade/Desktop/TECMUL/Unity_3D/RunGame_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1686630595647916, "dur":100306, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1686630595585532, "dur":2091, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1686630595587623, "dur":3496, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1686630595591151, "dur":148, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.1f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\4.0\\machine.config" }}
+,{ "pid":12345, "tid":13, "ts":1686630595591121, "dur":179, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Trindade/Desktop/TECMUL/Unity_3D/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":13, "ts":1686630595591301, "dur":107, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1686630595606335, "dur":3165, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Trindade/Desktop/TECMUL/Unity_3D/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":13, "ts":1686630595609542, "dur":183, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1686630595609741, "dur":4518, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Trindade/Desktop/TECMUL/Unity_3D/RunGame_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1686630595614351, "dur":5708, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Trindade/Desktop/TECMUL/Unity_3D/RunGame_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1686630595620099, "dur":121, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1686630595620234, "dur":7171, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Trindade/Desktop/TECMUL/Unity_3D/RunGame_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1686630595627446, "dur":80, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1686630595627538, "dur":9917, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Trindade/Desktop/TECMUL/Unity_3D/RunGame_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1686630595637510, "dur":61, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1686630595637584, "dur":2463, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Trindade/Desktop/TECMUL/Unity_3D/RunGame_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":13, "ts":1686630595640092, "dur":108108, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1686630595585550, "dur":2078, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1686630595587628, "dur":3530, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1686630595591159, "dur":511, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Trindade/Desktop/TECMUL/Unity_3D/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":14, "ts":1686630595591670, "dur":133, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1686630595593494, "dur":1648, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Trindade/Desktop/TECMUL/Unity_3D/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":14, "ts":1686630595595284, "dur":1126, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Trindade/Desktop/TECMUL/Unity_3D/RunGame.exe" }}
+,{ "pid":12345, "tid":14, "ts":1686630595596460, "dur":214, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1686630595596857, "dur":3681, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Trindade/Desktop/TECMUL/Unity_3D/RunGame_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":14, "ts":1686630595600618, "dur":126, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1686630595600760, "dur":1565, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Trindade/Desktop/TECMUL/Unity_3D/RunGame_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":14, "ts":1686630595602408, "dur":4213, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Trindade/Desktop/TECMUL/Unity_3D/RunGame_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":14, "ts":1686630595606685, "dur":3319, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Trindade/Desktop/TECMUL/Unity_3D/RunGame_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":14, "ts":1686630595617939, "dur":227, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1686630595610123, "dur":8070, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Trindade/Desktop/TECMUL/Unity_3D/RunGame_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1686630595618234, "dur":128, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1686630595618376, "dur":3750, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Trindade/Desktop/TECMUL/Unity_3D/RunGame_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1686630595622188, "dur":116, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1686630595622320, "dur":5609, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Trindade/Desktop/TECMUL/Unity_3D/RunGame_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1686630595627972, "dur":59, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1686630595628067, "dur":6312, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Trindade/Desktop/TECMUL/Unity_3D/RunGame_Data/Managed/UnityEngine.ContentLoadModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1686630595634424, "dur":1198, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Trindade/Desktop/TECMUL/Unity_3D/RunGame_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":14, "ts":1686630595635704, "dur":12956, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Trindade/Desktop/TECMUL/Unity_3D/RunGame_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":14, "ts":1686630595648696, "dur":99518, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1686630595585564, "dur":2068, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1686630595587633, "dur":3481, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1686630595591150, "dur":136, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.1f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\4.0\\web.config" }}
+,{ "pid":12345, "tid":15, "ts":1686630595591138, "dur":149, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Trindade/Desktop/TECMUL/Unity_3D/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":15, "ts":1686630595591287, "dur":65, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1686630595604317, "dur":3298, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Trindade/Desktop/TECMUL/Unity_3D/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":15, "ts":1686630595607662, "dur":95, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1686630595607779, "dur":2831, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Trindade/Desktop/TECMUL/Unity_3D/RunGame_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1686630595610651, "dur":55, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1686630595610739, "dur":5036, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Trindade/Desktop/TECMUL/Unity_3D/RunGame_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1686630595615820, "dur":62, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1686630595615927, "dur":7768, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Trindade/Desktop/TECMUL/Unity_3D/RunGame_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1686630595623818, "dur":10878, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Trindade/Desktop/TECMUL/Unity_3D/RunGame_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1686630595634742, "dur":5007, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Trindade/Desktop/TECMUL/Unity_3D/RunGame_Data/sharedassets0.resource" }}
+,{ "pid":12345, "tid":15, "ts":1686630595639817, "dur":1649, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Trindade/Desktop/TECMUL/Unity_3D/RunGame_Data/level0" }}
+,{ "pid":12345, "tid":15, "ts":1686630595641503, "dur":106716, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1686630595585587, "dur":2049, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1686630595587637, "dur":3474, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1686630595591122, "dur":545, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.1f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\4.5\\machine.config" }}
+,{ "pid":12345, "tid":16, "ts":1686630595591112, "dur":556, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Trindade/Desktop/TECMUL/Unity_3D/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":16, "ts":1686630595591669, "dur":118, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1686630595592909, "dur":1984, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Trindade/Desktop/TECMUL/Unity_3D/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":16, "ts":1686630595594928, "dur":81, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Trindade/Desktop/TECMUL/Unity_3D/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":16, "ts":1686630595595050, "dur":1439, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Trindade/Desktop/TECMUL/Unity_3D/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":16, "ts":1686630595596530, "dur":147, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1686630595596860, "dur":4232, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Trindade/Desktop/TECMUL/Unity_3D/RunGame_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":16, "ts":1686630595601201, "dur":177, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1686630595601397, "dur":1129, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Trindade/Desktop/TECMUL/Unity_3D/RunGame_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":16, "ts":1686630595602572, "dur":98, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1686630595602683, "dur":3405, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Trindade/Desktop/TECMUL/Unity_3D/RunGame_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":16, "ts":1686630595606143, "dur":113, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1686630595606287, "dur":2514, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Trindade/Desktop/TECMUL/Unity_3D/RunGame_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":16, "ts":1686630595609093, "dur":150, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1686630595609261, "dur":2781, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Trindade/Desktop/TECMUL/Unity_3D/RunGame_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1686630595612084, "dur":55, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1686630595612159, "dur":6793, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Trindade/Desktop/TECMUL/Unity_3D/RunGame_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1686630595619012, "dur":153, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1686630595619188, "dur":3789, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Trindade/Desktop/TECMUL/Unity_3D/RunGame_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1686630595623067, "dur":198, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1686630595623282, "dur":8249, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Trindade/Desktop/TECMUL/Unity_3D/RunGame_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1686630595631609, "dur":204, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1686630595631828, "dur":81, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1686630595631915, "dur":5776, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Trindade/Desktop/TECMUL/Unity_3D/RunGame_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1686630595637844, "dur":2129, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Trindade/Desktop/TECMUL/Unity_3D/RunGame_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":16, "ts":1686630595640054, "dur":2713, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Trindade/Desktop/TECMUL/Unity_3D/RunGame_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":16, "ts":1686630595642835, "dur":105386, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1686630595751564, "dur":907, "ph":"X", "name": "ProfilerWriteOutput" }
+,
